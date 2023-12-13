@@ -1,0 +1,64 @@
+/* public/assets/styles/style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  text-align: center;
+  margin: 40px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para a seção de boas-vindas */
+#welcome-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#welcome-section h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Estilo para a seção de conteúdo principal */
+#main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a página de erro 404 */
+#error-page {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#error-page h1 {
+  color: #f44336;
+  font-size: 3em;
+}
+
+#error-page p {
+  color: #555;
+  font-size: 1.2em;
+}
